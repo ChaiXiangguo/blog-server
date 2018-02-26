@@ -8,7 +8,7 @@ const config={
       session: 'guoger-security-secret'
     },
      // white list
-    whiteList: ['/api/user/register', '/'],
+    whiteList: ['/api/user/register','/api/user/login', '/'],
 }
 
 module.exports = config
